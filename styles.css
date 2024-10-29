@@ -1,0 +1,78 @@
+body {
+	background-image: url("https://media.istockphoto.com/id/1398704456/es/vector/lindo-unicornio-sentado-dibujos-animados-ilustraci%C3%B3n-vectorial.jpg?s=612x612&w=0&k=20&c=g1sRpfl7M3dDo_xXxgtwK-C2hyfSMSJYzpqB3MK8lGE=");
+	background-repeat: repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+.postcard {
+	background-color: white;
+	width: 600px;
+	height: 300px;
+	margin: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 100px;
+	place-items: center;
+	border-style: groove;
+}
+
+.postcard-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.postcard-header img {
+	width: 100px;
+	height: 100px;
+}
+
+.postcard-header h1 {
+	margin: 0;
+	color: deeppink;
+	font-size: 24px;
+	font-family: "Borel", cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+input {
+	border: none;
+	border-bottom: 5px solid rgb(223, 28, 145);
+}
+
+p {
+	font-size: 16px;
+	font-family: "Borel", cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: rgb(158, 223, 18);
+	padding: 10px;
+	font-family: "Rubik Bubbles", system-ui;
+	font-weight: 400;
+	font-style: normal;
+}
